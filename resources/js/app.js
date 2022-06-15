@@ -12,7 +12,6 @@ import Home from './components/HomeComponent'
 import Counter from './components/CounterComponent'
 import About from './components/AboutComponent'
 
-
 const routes = [
     {
         path: '/',
@@ -32,11 +31,6 @@ const routes = [
     }
 
 ]
-
-// Initialize Vue
-// const app = new Vue({
-//     el: '#app',
-// });
 
 const router = new VueRouter({ mode: 'history', routes: routes});
 const app = new Vue(Vue.util.extend({ router }, App)).$mount('#app');

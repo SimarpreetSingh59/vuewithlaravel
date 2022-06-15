@@ -1,4 +1,5 @@
 <template>
+
   <div class="container">
     <nav>
         <router-link to="/">Home</router-link>   
@@ -7,6 +8,7 @@
     </nav><br />
     <router-view></router-view>
   </div>
+  
 </template>
 
 <style>

@@ -56,6 +56,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -209,11 +211,7 @@ var routes = [{
   path: '/about',
   name: 'About',
   component: _components_AboutComponent__WEBPACK_IMPORTED_MODULE_4__["default"]
-}]; // Initialize Vue
-// const app = new Vue({
-//     el: '#app',
-// });
-
+}];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   mode: 'history',
   routes: routes
